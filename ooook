@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .group1{
+            border: 1px solid transparent;
+            width: 1000px;
+            height: 600px;
+            background-color: gray; 
+    }
+    .box{
+        border: 1px solid transparent;
+        line-height: 50px;
+        text-align: center;
+    }
+    .box1{
+        margin-bottom: 1px;
+        height: 103px;
+        width: 277px;
+        float: left;
+        background-color: red;
+    }
+    .box2{
+        height: 49px;
+        width: 137px;
+        background-color: rgb(32, 241, 32);
+        float: right;
+        margin-bottom: 1px;
+    }
+    .box3{
+        height: 46px;
+        width: 679px;
+        background-color: rgb(26, 204, 26);
+        float: right;
+        margin-bottom: 1px;
+    }
+    .box4{
+        width: 1000px;
+        height: 490px;
+        float: left;
+        background-color: hotpink;
+    }
+</style>
+<body>
+    <div align="center"><img src="timg.png" height="100" alt="厦大校徽"></div>
+    <table border="1" align="center">
+        <tr>
+            <th>姓名</th><th>性别</th><th>学号</th><th>班级</th>
+        </tr>
+        <tr>
+            <td>黄宇诚</td><td>男</td><td>22920202200754</td><td>信息学院计算机3班</td>
+        </tr>
+    </table>
+    <div class="group1" align="center">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"><a href="https://www.xmu.edu.cn/">厦大百年生日快乐</a></div>
+    </div>
+</body>
+</html>
